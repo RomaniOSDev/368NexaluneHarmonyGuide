@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2507ADAB92B431717B169EB5 /* LunexSparkAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E4A420C53F834C99C1677 /* LunexSparkAtlas.swift */; };
+		627E88A7D42514CA5BDAC75E /* LunexSparkGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC75CD551FD5E4CFDD9E853 /* LunexSparkGallery.swift */; };
+		65DCEB09D0258AD4CF6E2D52 /* LunexLedgerVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CB339B0C24B1C46E87E810 /* LunexLedgerVault.swift */; };
+		79A0C259F651358340A4F52C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C2A238D0309098C1AA1CA12B /* PrivacyInfo.xcprivacy */; };
+		8755F7BA9B47F262B85CBA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA31E989B0FA3B193BEEB9D /* Main.storyboard */; };
+		8CD80FC7F5BB6B34D67A8E9A /* LunexWelcomeReel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FBBEF38FAD48EC856093F /* LunexWelcomeReel.swift */; };
+		98DBBEFAA50909FC3DDA7713 /* LunexFrameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080D5EB6BDEF297D72F98F0 /* LunexFrameModels.swift */; };
+		9E24753238CC0960C769F31C /* LunexVaultRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6665DDE8311AE166126A5 /* LunexVaultRoll.swift */; };
+		A5F8599655E4A992D6D36B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D200707E012B2A2114B3A31 /* Assets.xcassets */; };
+		AAFC0B12ADB2F17587297712 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01294757AFE755C7BE941D96 /* SceneDelegate.swift */; };
+		BBE0CC5DE8AA7453A9DA89C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C2BAC89D5639A475D513AA /* ContentView.swift */; };
+		C6F1CAFD66A195F08D92CE65 /* LunexCaptionGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D30AEC2C9675C88B2F613 /* LunexCaptionGallery.swift */; };
+		CB583E25ABE2D8E80C5C0FED /* LunexBoardRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF86BD1AA3B4CAA87C18918 /* LunexBoardRoll.swift */; };
+		D4878CE4E4FCF7E0A039DD63 /* LunexLinkLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234F4B889BEB8952314FC1B /* LunexLinkLedger.swift */; };
+		D55BE1B2CC72F0A5AA4FDB8F /* LunexSurfaceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F34BAB02162116DCC7FB2E /* LunexSurfaceKit.swift */; };
+		E097CF60C6F6E6AEF1874062 /* LunexPreferenceCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598CB72BC1361323CB05D739 /* LunexPreferenceCanvas.swift */; };
+		E499CEBC5B25DB51C75ECBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AE5C4A7B17C7B7E126684B /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01294757AFE755C7BE941D96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		089267B90CACDB39E48B0524 /* Pods-368NexaluneHarmonyGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-368NexaluneHarmonyGuide.release.xcconfig"; path = "Target Support Files/Pods-368NexaluneHarmonyGuide/Pods-368NexaluneHarmonyGuide.release.xcconfig"; sourceTree = "<group>"; };
+		144E4A420C53F834C99C1677 /* LunexSparkAtlas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexSparkAtlas.swift; sourceTree = "<group>"; };
+		14F34BAB02162116DCC7FB2E /* LunexSurfaceKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexSurfaceKit.swift; sourceTree = "<group>"; };
+		15C2BAC89D5639A475D513AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B9FBBEF38FAD48EC856093F /* LunexWelcomeReel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexWelcomeReel.swift; sourceTree = "<group>"; };
+		5080D5EB6BDEF297D72F98F0 /* LunexFrameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexFrameModels.swift; sourceTree = "<group>"; };
+		598CB72BC1361323CB05D739 /* LunexPreferenceCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexPreferenceCanvas.swift; sourceTree = "<group>"; };
+		7BF86BD1AA3B4CAA87C18918 /* LunexBoardRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexBoardRoll.swift; sourceTree = "<group>"; };
+		7EA31E989B0FA3B193BEEB9D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		83CB339B0C24B1C46E87E810 /* LunexLedgerVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexLedgerVault.swift; sourceTree = "<group>"; };
+		859A29647F6088CCA628233C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AE5C4A7B17C7B7E126684B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D200707E012B2A2114B3A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D7D30AEC2C9675C88B2F613 /* LunexCaptionGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexCaptionGallery.swift; sourceTree = "<group>"; };
+		BDC75CD551FD5E4CFDD9E853 /* LunexSparkGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexSparkGallery.swift; sourceTree = "<group>"; };
+		C2A238D0309098C1AA1CA12B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D1EFB73AC2577EC569833715 /* Pods-368NexaluneHarmonyGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-368NexaluneHarmonyGuide.debug.xcconfig"; path = "Target Support Files/Pods-368NexaluneHarmonyGuide/Pods-368NexaluneHarmonyGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB6665DDE8311AE166126A5 /* LunexVaultRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexVaultRoll.swift; sourceTree = "<group>"; };
+		EB8770BDFEA439C3CC398496 /* 368NexaluneHarmonyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 368NexaluneHarmonyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F234F4B889BEB8952314FC1B /* LunexLinkLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunexLinkLedger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FADA70752BBF1C9CFB841D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157D236578D1696AF03C47D0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				87AE5C4A7B17C7B7E126684B /* AppDelegate.swift */,
+				F63BD3CBC0EECF92C3DC5995 /* Base.lproj */,
+				859A29647F6088CCA628233C /* Info.plist */,
+				01294757AFE755C7BE941D96 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		32B3F8897D6115E9EB941BD9 /* Sparks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC75CD551FD5E4CFDD9E853 /* LunexSparkGallery.swift */,
+			);
+			path = Sparks;
+			sourceTree = "<group>";
+		};
+		359F1CF82C9F0265412C4328 = {
+			isa = PBXGroup;
+			children = (
+				CC6212D8E5764B127E0F8831 /* 368NexaluneHarmonyGuide */,
+				C0E52C20A48D7D53BA075C27 /* Products */,
+				A75C334653BEE05BB9C40211 /* Pods */,
+				8728A9B24CB5C9DF5023F017 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E53EFE142533312AFE41071 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				15C2BAC89D5639A475D513AA /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3F923BDFAE765F6C08DD2B72 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				58A3E881BC5BDDFC8A7B2DC0 /* Boards */,
+				95EC6D3E147E1C1247554D56 /* Chrome */,
+				C22C8BCDFD9AD7638A51887B /* Onboarding */,
+				42AC851440A48A899D5ED61B /* Preferences */,
+				3E53EFE142533312AFE41071 /* Root */,
+				F1CC6B636877E2A68DA5BF16 /* Scenes */,
+				32B3F8897D6115E9EB941BD9 /* Sparks */,
+				742120A640F849B2A74A7B14 /* Vault */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		42AC851440A48A899D5ED61B /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				598CB72BC1361323CB05D739 /* LunexPreferenceCanvas.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		58A3E881BC5BDDFC8A7B2DC0 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				7BF86BD1AA3B4CAA87C18918 /* LunexBoardRoll.swift */,
+			);
+			path = Boards;
+			sourceTree = "<group>";
+		};
+		742120A640F849B2A74A7B14 /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				DAB6665DDE8311AE166126A5 /* LunexVaultRoll.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		7DBA7B162A097224435B0AAC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F311148899B11E7A429347FE /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8728A9B24CB5C9DF5023F017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89B217F6A9948EEE24245364 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D200707E012B2A2114B3A31 /* Assets.xcassets */,
+				F234F4B889BEB8952314FC1B /* LunexLinkLedger.swift */,
+				C2A238D0309098C1AA1CA12B /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95EC6D3E147E1C1247554D56 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				14F34BAB02162116DCC7FB2E /* LunexSurfaceKit.swift */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		A75C334653BEE05BB9C40211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1EFB73AC2577EC569833715 /* Pods-368NexaluneHarmonyGuide.debug.xcconfig */,
+				089267B90CACDB39E48B0524 /* Pods-368NexaluneHarmonyGuide.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8F7CE45D9BA284B29E96B5B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				83CB339B0C24B1C46E87E810 /* LunexLedgerVault.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		C0E52C20A48D7D53BA075C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8770BDFEA439C3CC398496 /* 368NexaluneHarmonyGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22C8BCDFD9AD7638A51887B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2B9FBBEF38FAD48EC856093F /* LunexWelcomeReel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CC6212D8E5764B127E0F8831 /* 368NexaluneHarmonyGuide */ = {
+			isa = PBXGroup;
+			children = (
+				157D236578D1696AF03C47D0 /* Application */,
+				7DBA7B162A097224435B0AAC /* Domain */,
+				B8F7CE45D9BA284B29E96B5B /* Persistence */,
+				3F923BDFAE765F6C08DD2B72 /* Presentation */,
+				89B217F6A9948EEE24245364 /* Resources */,
+			);
+			path = 368NexaluneHarmonyGuide;
+			sourceTree = "<group>";
+		};
+		F1CC6B636877E2A68DA5BF16 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9D7D30AEC2C9675C88B2F613 /* LunexCaptionGallery.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F311148899B11E7A429347FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5080D5EB6BDEF297D72F98F0 /* LunexFrameModels.swift */,
+				144E4A420C53F834C99C1677 /* LunexSparkAtlas.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F63BD3CBC0EECF92C3DC5995 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7EA31E989B0FA3B193BEEB9D /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62FD1692249CBDBDB5B7A53 /* 368NexaluneHarmonyGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8FBB8651677AFDC8AB51BA6 /* Build configuration list for PBXNativeTarget "368NexaluneHarmonyGuide" */;
+			buildPhases = (
+				40DD37907F56764301F75B8A /* [CP] Check Pods Manifest.lock */,
+				98A2E83C38F1B507920C394E /* Sources */,
+				18FADA70752BBF1C9CFB841D /* Frameworks */,
+				E1C782713CD0CD917BE15C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 368NexaluneHarmonyGuide;
+			productName = 368NexaluneHarmonyGuide;
+			productReference = EB8770BDFEA439C3CC398496 /* 368NexaluneHarmonyGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50267C1872EC4B52726E16BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D62FD1692249CBDBDB5B7A53 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EADA9E954086276D8050F780 /* Build configuration list for PBXProject "368NexaluneHarmonyGuide" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 359F1CF82C9F0265412C4328;
+			productRefGroup = C0E52C20A48D7D53BA075C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62FD1692249CBDBDB5B7A53 /* 368NexaluneHarmonyGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C782713CD0CD917BE15C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755F7BA9B47F262B85CBA61 /* Main.storyboard in Resources */,
+				A5F8599655E4A992D6D36B1D /* Assets.xcassets in Resources */,
+				79A0C259F651358340A4F52C /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40DD37907F56764301F75B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-368NexaluneHarmonyGuide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A2E83C38F1B507920C394E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E499CEBC5B25DB51C75ECBFD /* AppDelegate.swift in Sources */,
+				AAFC0B12ADB2F17587297712 /* SceneDelegate.swift in Sources */,
+				98DBBEFAA50909FC3DDA7713 /* LunexFrameModels.swift in Sources */,
+				2507ADAB92B431717B169EB5 /* LunexSparkAtlas.swift in Sources */,
+				65DCEB09D0258AD4CF6E2D52 /* LunexLedgerVault.swift in Sources */,
+				CB583E25ABE2D8E80C5C0FED /* LunexBoardRoll.swift in Sources */,
+				D55BE1B2CC72F0A5AA4FDB8F /* LunexSurfaceKit.swift in Sources */,
+				8CD80FC7F5BB6B34D67A8E9A /* LunexWelcomeReel.swift in Sources */,
+				E097CF60C6F6E6AEF1874062 /* LunexPreferenceCanvas.swift in Sources */,
+				BBE0CC5DE8AA7453A9DA89C0 /* ContentView.swift in Sources */,
+				C6F1CAFD66A195F08D92CE65 /* LunexCaptionGallery.swift in Sources */,
+				627E88A7D42514CA5BDAC75E /* LunexSparkGallery.swift in Sources */,
+				9E24753238CC0960C769F31C /* LunexVaultRoll.swift in Sources */,
+				D4878CE4E4FCF7E0A039DD63 /* LunexLinkLedger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C63A7728BF95F29059FA4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EED739891CAD010E8BAC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EFB73AC2577EC569833715 /* Pods-368NexaluneHarmonyGuide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 368NexaluneHarmonyGuide/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nexalune Harmony Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trn.n3xh4rg7d3x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		76D7D59DCE5D10EBC2CD8786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A67FAA0701B76ECB91129CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089267B90CACDB39E48B0524 /* Pods-368NexaluneHarmonyGuide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 368NexaluneHarmonyGuide/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nexalune Harmony Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trn.n3xh4rg7d3x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8FBB8651677AFDC8AB51BA6 /* Build configuration list for PBXNativeTarget "368NexaluneHarmonyGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EED739891CAD010E8BAC44 /* Debug */,
+				A67FAA0701B76ECB91129CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADA9E954086276D8050F780 /* Build configuration list for PBXProject "368NexaluneHarmonyGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D7D59DCE5D10EBC2CD8786 /* Debug */,
+				3C63A7728BF95F29059FA4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50267C1872EC4B52726E16BF /* Project object */;
+}
